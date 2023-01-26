@@ -1,0 +1,1362 @@
+/**
+ * Common CSS styling
+ * 
+ * @author RGatin
+ * @since 12-Mar-2018
+ * 
+ */    
+@CHARSET "ISO-8859-1";
+
+body {
+   color: #4a4a4a;
+}
+
+.bg {
+   /* background-image: url("/api/v1/resources/mobilearthbank/appresources/open/customer-portal/background/image.jpg"); */
+   background-color: #fff;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+
+.bg-light-darker1 {
+	background-color: #eff0f1;
+}
+
+.bg-light-darker2 {
+	background-color: #c9c9c9;
+}
+
+/* in the css file or in a style block */
+.carriage-return-newlines {
+    white-space: pre-wrap;
+}
+
+.spinner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: #333;
+	opacity: .8;
+}
+
+.div-center-screen-size-100-100 {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+.div-center-screen-size-400-100 {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 400px;
+	height: 100px;
+	margin: auto;
+}
+
+p {
+	overflow-wrap: anywhere;
+}
+
+.width-height-per100 {
+	width: 100%;
+	height: 100%;
+}
+
+.rotate360-5s {
+	-webkit-animation: rotate360 5s linear infinite;
+	-moz-animation: rotate360 5s linear infinite;
+	animation: rotate360 5s linear infinite;
+}
+
+@-moz-keyframes rotate360 { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes rotate360 { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes rotate360 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-justify {
+	text-align: justify !important;
+}
+
+.text-nowrap {
+	white-space: nowrap !important;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+.margin-top-1em {
+	margin-top: 1em !important;
+}
+
+.back-gray-light-1 {
+	background-color: #F2F2F2;
+}
+
+.back-gray-light-2 {
+	background-color: #9C9C9C;
+}
+
+.back-gray-2 {
+	background-color: #F0F0F0;
+}
+
+.nopadding {
+   padding: 0 !important;
+}
+
+.nomargin {
+   margin: 0 !important;
+}
+
+.auth-form {
+    min-width: 300px;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.auth-form-body {
+    padding: 20px;
+    font-size: 14px;
+    background-color: rgba(233, 236, 239, 0.9);
+    border: 1px solid #d8dee2;
+	border-radius: 5px;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.auth-form-body label {
+    font-weight: 400;
+}
+
+.auth-form-body .input-block {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.input-block {
+    display: block;
+    width: 100%;
+}
+
+.label-link {
+    float: right;
+    font-size: 12px;
+}
+
+.label-self-registration-link {
+    font-size: 12px;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+.text-underline-pointer {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.back-trans {
+    background-color: transparent;
+}
+
+div.wrapper label {
+	float: left;
+	width: 75%;
+	text-align: right;
+}
+
+div.wrapper span {
+	float: right;
+	width: 20%;
+	text-align: left;
+}
+
+div.clearboth {
+	clear: both
+}
+
+.back-white {
+	background-color: #fff;
+}
+
+.back-color-me {
+	background-color: #073974;
+}
+
+.back-n-border-color-me {
+	background-color: #073974;
+	border-color: #073974 !important;
+}
+
+.btn-wide {
+	padding: 0 !important;
+}
+
+.btn-wide span {
+	font-size: 0.85em;
+	display: block;
+}
+
+.btn-wide i {
+ 	height: 1.75em;
+	width: 1.75em;
+	margin: 0.5em 1.25em 0.5em;
+}
+
+.btn-wide i::before {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.line-height-0 {
+	line-height: 0;
+}
+
+.line-height-1rem {
+	line-height: 1rem;
+}
+
+.line-height-1_2em {
+	line-height: 1.2em;
+}
+
+.line-height-1_3em {
+	line-height: 1.3em;
+}
+
+.line-height-08em {
+	line-height: 0.8em;
+}
+
+.line-height-1em {
+	line-height: 1em;
+}
+
+.line-height-2em {
+	line-height: 2em;
+}
+
+
+.font10 {
+	font-size: 10px;
+}
+
+.font11 {
+	font-size: 11px;
+}
+
+.font12 {
+	font-size: 12px;
+}
+
+.font13 {
+	font-size: 13px;
+}
+
+.font14 {
+	font-size: 14px;
+}
+
+.font15 {
+	font-size: 15px;
+}
+
+.font16 {
+	font-size: 16px;
+}
+
+.font17 {
+	font-size: 17px;
+}
+
+.font18 {
+	font-size: 18px;
+}
+
+.font19 {
+	font-size: 19px;
+}
+
+.font20 {
+	font-size: 20px;
+}
+
+.font21 {
+	font-size: 21px;
+}
+
+.font22 {
+	font-size: 22px;
+}
+
+.font23 {
+	font-size: 23px;
+}
+
+.font24 {
+	font-size: 24px;
+}
+
+.font25 {
+	font-size: 25px;
+}
+
+.font26 {
+	font-size: 26px;
+}
+
+.font27 {
+	font-size: 27px;
+}
+
+.font28 {
+	font-size: 28px;
+}
+
+.font29 {
+	font-size: 29px;
+}
+
+.font30 {
+	font-size: 30px;
+}
+
+
+.font1rem {
+	font-size: 1rem;
+}
+
+.font2rem {
+	font-size: 2rem;
+}
+
+.font3rem {
+	font-size: 3rem;
+}
+
+.font4rem {
+	font-size: 4rem;
+}
+
+.font5rem {
+	font-size: 5rem;
+}
+
+.font6rem {
+	font-size: 6rem;
+}
+
+.font-reset {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.max-width-4rem {
+    max-width: 4rem;
+}
+
+.max-width-400px {
+    max-width: 400px;
+}
+
+.max-width-500px {
+    max-width: 500px;
+}
+
+.max-width-540px {
+    max-width: 540px;
+}
+
+.width-1em {
+	width: 1em;
+}
+
+.width-13rem {
+	width: 13rem;
+}
+
+.width-8em {
+	width: 8rem;
+}
+
+.width-20em {
+	width: 20rem;
+}
+
+.terms-conditions {
+	max-height: 282px;
+    overflow-y: auto;
+    border-radius: 5px;
+    background-color: #ffffffc2;
+}
+
+.pre-terms-conditions {
+	overflow: hidden;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word; 
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-600 {
+    font-weight: 600!important;
+}
+
+.font1em {
+	font-size: 1em;
+}
+
+.font1_5em {
+	font-size: 1.5em;
+}
+
+.font09em {
+	font-size: 0.9em;
+}
+
+.font08em {
+	font-size: 0.8em;
+}
+
+.max-height-15rem {
+	max-height: 15rem;
+}
+
+.height-3em {
+	height: 3em;
+}
+
+.height-6rem {
+	height: 6rem;
+}
+
+.height-8rem {
+	height: 8rem;
+}
+
+.height-2_8em {
+	height: 2.8em;
+}
+
+.btn-white {
+	font-weight: 500;
+	color: #073974;
+    background-color: transparent;
+}
+
+.height-1px {
+	height: 1px;
+}
+
+.height-2px {
+	height: 2px;
+}
+
+.height-3px {
+	height: 3px;
+}
+
+/*
+---------------------------------------------------
+    SIDEBAR STYLE
+---------------------------------------------------
+*/
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #073974;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#sidebarDismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    display: none;
+}
+
+#sidebar-content {
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+	border-radius: .5rem;
+	border: 1px solid #d3d3d3;
+}
+
+#sidebar-content .list-header {
+	color: #073974;
+	font-weight: 700;
+	margin-left: 1rem;
+	margin-top: .5rem;
+}
+
+#sidebar-content ul {
+	list-style: none;
+}
+
+#sidebar-content ul li.active {
+	font-weight: bold;
+}
+
+#sidebar-content .list-header a,
+#sidebar-content ul li a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+/* 
+---------------------------------------------------
+    CONTENT of SIDEBAR WRAPPER STYLE
+---------------------------------------------------
+*/
+#content {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+/*
+---------------------------------------------------
+    END OF SIDEBAR STYLE
+---------------------------------------------------
+*/
+
+.text-regular {
+	color: #4a4a4a;
+}
+
+.rounded-bordered-box {
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+	border-radius: .5rem;
+	border: 1px solid #d3d3d3;
+}
+
+.square-bordered-box {
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+	border: 1px solid #d3d3d3;
+}
+
+.rounded-bordered-box-2 {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	border-radius: .3rem;
+	border: 1px solid #d3d3d3;
+}
+
+.text-gray-light {
+	color: #d3d3d3;
+}
+
+.text-gray-darker {
+	color: #919191;
+}
+
+.back-gray-light {
+	background-color: #d3d3d3;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-default-imp {
+	cursor: default !important;
+}
+
+.cursor-not-allowed {
+	cursor: not-allowed;
+}
+
+.border-radius-10px {
+	border-radius: 10px;
+}
+
+/*
+---------------------------------------------------
+	Dashboard accounts Panel
+---------------------------------------------------
+*/
+#accounts tbody td{
+	font-size: 15px;
+	color: #000;
+	vertical-align: middle;
+	text-align: right;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+}
+
+#accounts thead th{
+	padding-top: 0;
+}
+
+#accounts tbody th{
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+}
+
+#accounts tbody th u span{
+	font-weight: 600;
+	color: #073974;
+}
+
+#accounts tbody th small span{
+	font-size: 15px;
+}
+
+#accounts tbody th small span{
+	font-weight: 300;
+}
+
+#accounts td, 
+#accounts th {
+    border: none;
+}
+
+#accounts > tbody > tr:nth-child(2n+1) > td, 
+#accounts > tbody > tr:nth-child(2n+1) > th {
+   background-color: #F6F7FB;
+}
+
+/*
+---------------------------------------------------
+	End of - Dashboard accounts Panel
+---------------------------------------------------
+*/
+
+.no-textshadow {
+	text-shadow: none;
+}
+
+.border-bottom-1px-gray-light {
+	border-bottom: 1px solid #9E9E9E;
+}
+
+.border-leftside-no-radius {
+	border-bottom-left-radius: unset;
+    border-top-left-radius: unset;
+}
+
+.white-space-pre {
+	white-space: pre;
+}
+
+/*
+---------------------------------------------------
+	Account History
+---------------------------------------------------
+*/
+#accountHistory tbody td,
+#accountHistory thead th {
+	font-size: 14px;
+	vertical-align: middle;
+	text-align: left;
+	padding: .5rem .25rem .5rem .25rem;
+}
+
+#accountHistoryMobile.table {
+	border-collapse: separate;
+    border-spacing: 0px 2px;
+}
+
+#accountHistoryMobile tbody td,
+#accountHistoryMobile thead th{
+	font-size: 14px;
+	vertical-align: middle;
+	text-align: left;
+	padding: .5rem .25rem .5rem .25rem;
+}
+
+#accountHistoryMobile tbody td {
+	border: none;
+	padding: 0;
+}
+
+.history-item-border {
+	border: 1px solid #e4e4e4;
+}
+
+.no-border {
+	border: none !important;
+}
+/*
+---------------------------------------------------
+	End of - Account History
+---------------------------------------------------
+*/
+
+
+
+/*
+---------------------------------------------------
+	Start of - Acc. View Maint.: Sortable list
+---------------------------------------------------
+*/
+.sortable-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.drag-handle {
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+
+.sortable-chosen {
+  	color: #fff !important;
+  	background-color: #233A74 !important;
+}
+
+.sortable-ghost {
+ 	opacity: 0.9;
+  	background: #233A74 !important;
+}
+
+.acc-maint-li {
+	height: 3em;
+	box-shadow: none;
+	border-radius: .3rem;
+	border-left: 5px solid #233A74;
+}
+
+#accViewMaintDeposits li u p,
+#accViewMaintLoans li u p {
+	font-weight: 600;
+	color: #233A74;
+}
+
+#accViewMaintDeposits li.sortable-chosen u p,
+#accViewMaintLoans li.sortable-chosen u p {
+	color: #fff !important;
+}
+
+#accViewMaintDeposits li small p,
+#accViewMaintLoans li small p {
+    font-weight: 300;
+}
+
+.sortable-index-div {
+	padding: 1em 1em 1em .3em;
+	font-size: 14px;
+}
+/*
+---------------------------------------------------
+	End of - Acc. View Maint.: Sortable list
+---------------------------------------------------
+*/
+
+.min-width-2em {
+	min-width: 2em;
+}
+
+.min-width-5_5em {
+	min-width: 5.5em;
+}
+
+.min-width-6em {
+	min-width: 6em;
+}
+
+.min-width-6_5em {
+	min-width: 6.5em;
+}
+
+.box-shadow-none {
+	box-shadow: none;
+}
+
+.border-radius-03rem {
+	border-radius: .3rem;
+}
+
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+.timeout-swal  {
+	margin: 0 auto 1em;
+	color: #f8bb86;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	justify-content: center;
+	width: 5em;
+	height: 5em;
+	border: .25em solid #facea8;
+	border-radius: 50%;
+	line-height: 5em;
+	cursor: default;
+	box-sizing: content-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	zoom: normal;
+	display: block;
+	text-align: center;
+	font-size: 1.125em;
+	font-weight: 300;
+}
+
+
+/*
+---------------------------------------------------
+	Manage Payees table
+---------------------------------------------------
+*/
+#man-payees thead th {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+#man-payees {
+    font-size: 15px;
+}
+
+#man-payees td, #accounts th {
+    border: none;
+}
+
+#man-payees > tbody > tr:nth-child(2n+1) > td, 
+#man-payees > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F6F7FB;
+}
+
+#man-payees tbody th {
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+#man-payees td, 
+#man-payees th {
+    border: none;
+}
+
+#man-payees tbody tr button {
+	padding: 1px 0;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+.checkbox-bigger {
+	width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+.w-33 {
+	width: 33%;
+}
+
+/*
+---------------------------------------------------
+	End of - Manage Payees table
+---------------------------------------------------
+*/
+
+.max-width-6em {
+	max-width: 6em;
+}
+
+/*
+---------------------------------------------------
+	Account Settings
+---------------------------------------------------
+*/
+#account-settings .list-inline-item {
+    margin: 0;
+}
+
+#account-settings a {
+    color: #919191;
+}
+
+#account-settings .active {
+    color: #073974;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#account-settings li p {
+    font-size: 15px;
+}
+
+#account-settings i.fal {
+    font-size: 3.7vw;
+    margin-bottom: 0.3em;
+}
+
+#account-settings a.active i {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+  #account-settings i.fal {
+     font-size: 2.7em;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #account-settings i.fal {
+     font-size: 2em;
+     margin-bottom: 0.2em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #account-settings i.fal {
+     font-size: 1.7em;
+     margin-bottom: 0.1em;
+  }
+  #account-settings li p {
+     font-size: 13px;
+  }
+}
+
+/*
+---------------------------------------------------
+	End of - Account Settings
+---------------------------------------------------
+*/
+
+/*
+---------------------------------------------------
+	Top Menu Settings
+---------------------------------------------------
+*/
+#top-menu-settings .list-inline-item {
+    margin: 0;
+}
+
+#top-menu-settings a {
+    color: #333333;
+}
+
+#top-menu-settings .active {
+    color: #073974;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#top-menu-settings li p {
+    font-size: 15px;
+}
+
+#top-menu-settings i.fal {
+    font-size: 3.7vw;
+    margin-bottom: 0.3em;
+}
+
+#top-menu-settings a.active i {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+  #top-menu-settings i.fal {
+     font-size: 2.7em;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #top-menu-settings i.fal {
+     font-size: 2em;
+     margin-bottom: 0.2em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #top-menu-settings i.fal {
+     font-size: 1.7em;
+     margin-bottom: 0.1em;
+  }
+  #top-menu-settings li p {
+     font-size: 13px;
+  }
+}
+
+/*
+---------------------------------------------------
+	End of - Top Menu Settings
+---------------------------------------------------
+*/
+
+hr.wider {
+    border: none;
+    height: 2px;
+    color: #dbdbdb; /* old IE */
+    background-color: #dbdbdb; /* Modern Browsers */
+}
+
+/*
+---------------------------------------------------
+	Self Registration Applications
+---------------------------------------------------
+*/
+
+hr.widerApp {
+    border: none;
+    height: 1px;
+    color: #4a4a4a; /* old IE */
+    background-color: #4a4a4a; /* Modern Browsers */
+    margin-top: 0
+}
+
+div.bodyBack {
+	background-color: rgba(233, 236, 239, 0.9);
+}
+
+div.marginLeftZero {
+	margin-left: 0;
+	padding-left: 0
+}
+
+/*
+---------------------------------------------------
+	Account Alerts Table
+---------------------------------------------------
+*/
+#accountAlerts tbody td{
+    color: #000;
+    vertical-align: middle;
+    line-height: 1em;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+#accountAlerts thead th{
+	padding-top: 0;
+	font-size: 15px;
+}
+
+#accountAlerts tbody th{
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+}
+
+#accountAlerts tbody th u span{
+	font-weight: 600;
+	color: #073974;
+}
+
+#accountAlerts tbody th small span{
+	font-size: 15px;
+}
+
+#accountAlerts tbody th small span{
+	font-weight: 300;
+}
+
+#accountAlerts td, 
+#accountAlerts th {
+    border: none;
+}
+
+#accountAlerts > tbody > tr:nth-child(2n+1) > td, 
+#accountAlerts > tbody > tr:nth-child(2n+1) > th {
+   background-color: #F6F7FB;
+}
+
+#accountAlerts tbody td button{
+	width: 4.5em;
+}
+
+/*
+---------------------------------------------------
+	End of - Account Alerts Table
+---------------------------------------------------
+*/
+
+.width-6em {
+	width: 6em;
+}
+
+.width-7em {
+	width: 7em;
+}
+
+.width-8em {
+	width: 8em;
+}
+
+.pb-05, .py-05 {
+    padding-bottom: .12rem!important;
+}
+
+.pt-05, .py-05 {
+    padding-top: .12rem!important;
+}
+
+.accountAlertSelected {
+	color: #fff;
+	background-color: #1F3685;
+}
+
+.accountAlertDeselected {
+	color: #424242;
+	border: 1px solid #d3d3d3;
+	background-color: #d3d3d3;
+}
+
+.pb-2_5, .py-2_5 {
+    padding-bottom: .75rem!important;
+}
+.pt-2_5, .py-2_5 {
+    padding-top: .75rem!important;
+}
+
+.text-decor-none {
+	text-decoration: none;
+}
+
+.text-decor-underline {
+	text-decoration: underline;
+}
+
+.disabled {
+    pointer-events: none; /* not clickable */
+    opacity: 0.6;         /* grays out */
+}
+
+.enabled-blue {
+	background-color: #105cae !important;
+	border-color: #105cae !important;
+}
+
+.disabled-grey {
+	background-color: #777777 !important;
+	border-color: #777777 !important;
+}
+
+.link-style-initial,
+.link-style-initial:link,
+.link-style-initial:visited,
+.link-style-initial:hover,
+.link-style-initial:active {
+	color: initial;
+    text-decoration: none;
+}
+
+.pend-trans-row-back-imp {
+	background-color: #E8EDFF !important;
+}
+
+.pend-trans-row-footer {
+	background-color: #B6BCD6 !important;
+	border-bottom: 8px solid white !important;
+}
+
+.pend-trans-account-name {
+    font-weight: 600;
+    color: #073974;
+}
+
+.back-light-blue {
+	background: #F6F7FB;
+}
+
+.back-light-grey {
+	background: #d7dae2;
+}
+
+.table-striped-light-blue > tbody > tr:nth-child(odd) > td {
+    background-color: #F6F7FB;
+}
+
+.table-striped-light-blue > tbody > tr:nth-child(even) > td {
+    background-color: #fff;
+}
+
+.ng-table th.sortable .sort-indicator:before,
+.ng-table th.sortable.sort-desc .sort-indicator:after, 
+.ng-table th.sortable.sort-desc .sort-indicator:hover:after{
+  border-top: 4px solid #4a4a4a;
+}
+
+.ng-table th.sortable .sort-indicator:after,
+.ng-table th.sortable.sort-asc .sort-indicator:after, 
+.ng-table th.sortable.sort-asc .sort-indicator:hover:after{
+  border-bottom: 4px solid #4a4a4a;
+}
+
+.ng-table th.sortable.sort-asc, 
+.ng-table th.sortable.sort-desc {
+    background-color: transparent;
+    text-shadow: 0 1px 1px rgba(255,255,255,.75);
+}
+
+.text-me {
+	color: #073974;
+}
+
+ul.ng-table-pagination {
+	justify-content: flex-end!important;
+	padding-right: 1em;
+	border-radius: .25rem;
+}
+
+ul.ng-table-pagination li:last-child a {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+ul.ng-table-pagination li:first-child a{
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+ul.ng-table-pagination li.active a{
+    background-color: #e1e1e1;
+    color: #000;
+}
+
+ul.ng-table-pagination li a{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li.page-item a{
+	color: #000;
+}
+
+ul.pagination li.page-item.active a{
+	background-color: #e1e1e1 !important;
+	color: #000;
+	border-color: #dee2e6 !important;
+}
+
+.back-dirt-white {
+    background: #f5f5f5;
+}
+
+.border-error {
+    border-style: solid;
+    border-color: #ff0000;
+}
+
+.right-5per {
+	right: 5%
+}
+
+.table-nostriped-imp > tbody > tr:nth-child(odd) > td {
+    background-color: transparent !important;
+}
+
+.table-nostriped-imp > tbody > tr:nth-child(even) > td {
+    background-color: transparent !important;
+}
+
+#departmentsTableWrapper ul.ng-table-pagination li {
+	font-size: 12px;
+}
+
+.disclaimer {
+	color: #000000;
+	font-size: 10pt;
+}
+
+.field-help {
+	color: #4a4a4a;
+}
+
+.validation-error {
+    top: 100%;
+    z-index: 5;
+    max-width: 100%;
+    padding: .25rem .5rem;
+    margin-top: .1rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: rgba(220,53,69,.9);
+    border-radius: .25rem;
+    width: fit-content;
+    width: -moz-fit-content;
+
+}
